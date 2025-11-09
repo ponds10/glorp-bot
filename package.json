@@ -19,5 +19,9 @@
   "homepage": "https://github.com/ponds10/glorp-bot#readme",
   "dependencies": {
     "discord.js": "^14.24.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1"
   }
 }
