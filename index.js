@@ -1,6 +1,6 @@
 // Require the necessary discord.js classes
 import { Client, Events, GatewayIntentBits } from "discord.js";
-import token from "./config.json";
+import config from "./config.json" with { type: "json" };
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
@@ -13,4 +13,4 @@ client.once(Events.ClientReady, (readyClient) => {
 });
 
 // Log in to Discord with your client's token
-client.login(token);
+client.login(config.token);
