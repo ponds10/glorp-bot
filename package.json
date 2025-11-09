@@ -1,0 +1,23 @@
+{
+  "name": "glorp-bot",
+  "version": "1.0.0",
+  "description": "a discord bot for my friends and i",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponds10/glorp-bot.git"
+  },
+  "keywords": [],
+  "author": "Alistair Delos Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ponds10/glorp-bot/issues"
+  },
+  "homepage": "https://github.com/ponds10/glorp-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.24.2"
+  }
+}
