@@ -43,15 +43,15 @@ const rest = new REST().setToken(config.token);
     );
 
     // Guild command deployment
-    const data = await rest.put(
-      Routes.applicationGuildCommands(config.clientId, config.guildId),
-      { body: commands }
-    );
+    //const data = await rest.put(
+    //  Routes.applicationGuildCommands(config.clientId, config.guildId),
+    //  { body: commands }
+    //);
 
     // Global command deployment
-    //await rest.put(Routes.applicationCommands(config.clientId), {
-    //  body: commands,
-    //});
+    const data = await rest.put(Routes.applicationCommands(config.clientId), {
+      body: commands,
+    });
 
     console.log(
       `Successfully reloaded ${data.length} application (/) commands.`
