@@ -4,11 +4,11 @@ a discord bot for my friends and i
 
 ## stuff used
 
-[discord.js](https://discord.js.org/)
-[ESLint](https://eslint.org/)
-[Prettier](https://prettier.io/)
-Oracle Cloud (Deployed using a free Compute Instance)
-GitHub Copilot (Troubleshooting and deployment steps cause I'm stupid)
+- [discord.js](https://discord.js.org/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- Oracle Cloud (Deployed using a free Compute Instance)
+- GitHub Copilot (Troubleshooting and deployment steps cause I'm stupid)
 
 ## future plans
 
