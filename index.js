@@ -57,5 +57,15 @@ for (const file of eventFiles) {
   }
 }
 
+// Resolve token from env first, fallback to config.json
+const TOKEN = process.env.DISCORD_TOKEN ?? config?.token;
+
+if (!TOKEN || typeof TOKEN !== "string" || TOKEN.trim() === "") {
+  console.error(
+    "Discord token is missing. Set DISCORD_TOKEN environment variable or provide token in config.json."
+  );
+  process.exit(1);
+}
+
 // Log in to Discord with your client's token
-client.login(config.token);
+client.login(TOKEN);
