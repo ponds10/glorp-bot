@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { Client, Collection, GatewayIntentBits } from "discord.js";
-import config from "./config.json" with { type: "json" };
+//import config from "./config.json" with { type: "json" };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
